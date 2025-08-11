@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #87ceeb;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+#weather-container, #currency-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#temperature {
+    font-size: 2rem;
+    font-weight: bold;
+    color: orange;
+}
+
+#description {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+#timestamp {
+    font-size: 0.9rem;
+    color: gray; 
+    margin-top: 5px;
+}
+
+#currency-container select,
+#currency-container input,
+#currency-container button {
+    padding: 8px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+#exchange-rate {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#converted-value {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: green;
+}
